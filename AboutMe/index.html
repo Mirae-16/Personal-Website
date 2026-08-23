@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miiweb</title>
+  <link rel="stylesheet" href="/AboutMe/style.css">
+</head>
+<body>
+  <!-- Reading Progress Bar -->
+  <div id="progress-bar"></div>
+
+  <!-- Sticky Navbar -->
+  <nav class="navbar">
+    <div class="logo">&lt;Mira /&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#about">Mii</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Facts & TMIs</a></li>
+      <li><a href="#contact">Feedback</a></li>
+    </ul>
+    <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="about" class="hero">
+    <div class="hero-container">
+      <div class="profile-img-container">
+        <img src="https://via.placeholder.com/180" alt="Profile Picture" class="profile-img">
+      </div>
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="highlight">Mira</span></h1>
+        <p class="subtitle">I am a <span class="typing-text"></span></p>
+        <p class="description">
+        </p>
+        <div class="hero-actions">
+          <a href="#experience" class="btn primary-btn">Facts?</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filterable Projects Section with Modal Trigger -->
+  <section id="projects" class="section reveal">
+    <h2>Featured Projects</h2>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Apps</button>
+      <button class="filter-btn" data-filter="design">UI/UX</button>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card" data-category="web" data-title="Analytics Dashboard" data-desc="A full analytics suite featuring live chart visualizations, data exporting, and team permission management." data-tech="React, Chart.js, Node.js">
+        <h3>Analytics Dashboard</h3>
+        <p>Interactive metrics platform with real-time data visualizer.</p>
+        <span class="tag">Web App</span>
+      </div>
+      <div class="project-card" data-category="design" data-title="Finance App UI" data-desc="Complete UI design system for a personal budgeting application, optimized for mobile responsiveness." data-tech="Figma, CSS3, SVG Animations">
+        <h3>Finance App UI</h3>
+        <p>Minimalist dark-mode dashboard tailored for modern banking.</p>
+        <span class="tag">UI/UX</span>
+      </div>
+      <div class="project-card" data-category="web" data-title="Task Automation Manager" data-desc="Workflow manager allowing users to create custom automation triggers and schedule automated jobs." data-tech="JavaScript, Express, REST API">
+        <h3>Task Automation Tool</h3>
+        <p>Streamlined task scheduler for small engineering teams.</p>
+        <span class="tag">Web App</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facts & TMIs Section -->
+  <section id="experience" class="section reveal">
+    <h2>Facts & TMIs</h2>
+    <div class="timeline">
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <span class="date">Fun Fact #1</span>
+          <h3>Coder and Baketball PLayer</h3>
+          <p>I started coding and learning actually when  i was 11 years on scratch at first and i play basketball only because i once made a basketball game on scratch !!</p>
+      </div>
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <span class="date">TMI Alert</span>
+          <h3>Tab Hoarder</h3>
+          <p>I currently have at least 47 browser tabs open across three windows, and I promise I need every single one of them. XD</p>
+        </div>
+      </div>
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <span class="date">Fun Fact #2</span>
+          <h3>Night Owl Genius</h3>
+          <p>My peak creative hours hit right around midnight when the rest of the world is quiet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feedback & Message Section -->
+  <section id="contact" class="section reveal">
+    <h2>Leave a Message or Feedback</h2>
+    <p style="text-align: center; margin-bottom: 20px; color: #666;">Got thoughts, suggestions, or just want to say hi? Drop your message below!</p>
+    <form id="contact-form">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea id="message" rows="5" placeholder="Your Message or Feedback..." required></textarea>
+      </div>
+      <button type="submit" class="btn primary-btn full-width">Send Feedback</button>
+    </form>
+  </section>
+
+  <!-- Quick Project Preview Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3 id="modal-title">Project Title</h3>
+      <p id="modal-desc">Project Description</p>
+      <div class="modal-tech" id="modal-tech"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container"></div>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" title="Go to top">↑</button>
+
+  <script src="/AboutMe/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!-- (c) Layout created by 🩻 xXjellyfishl0vrXx 🪼 (https://layouts.spacehey.com/layout?id=104452) -->
+
+<style>
+.online {content:url('http://dl6.glitter-graphics.net/pub/121/121896n9dppf5kxv.gif'); background-repeat: no-repeat; background-position: -15% 75%; z-index: 2; 
+}
+</style>
+
+<!-- (c) Layout created by Айза (https://layouts.spacehey.com/layout?id=102599) -->
+
+<!-- (c) Layout created by 💗𝒞! (https://spacehey.com/home) -->
+
+<style>
+*, p, a, form, li, .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+   font-family: Verdana !important; 
+   font-size: 10px !important; 
+   color: #5aa6b5 !important; 
+   text-shadow: none !important; 
+   letter-spacing: 1px;
+
+}
+body {
+   background-image: url(https://i.pinimg.com/564x/4b/6a/0d/4b6a0d02dc65f9c5d7a4ce4ff0d9b409.jpg);
+}
+.top, .links, .heading, footer, button {
+   background-color: #cee6f2 !important;
+}
+h1 {
+   font-family: courier !important; 
+   font-size: 18px !important;
+}
+h4 {
+   color: #5a8eb5 !important;
+}
+.contact, .url-info, .table-section, .profile-info {
+   border-color: #add2e0 !important;
+}
+td {
+   background-color: white !important; {rgba(255,255,255,0.5) 
+}
+input, button:not(.logout-btn) {
+   border: 1px groove #cff6fc !important;
+}
+.pfp-fallback, .row.profile {
+   border: 1px dotted #6aa7bd !important;
+}
+.logo-fallback {
+   height: 38px !important;
+}
+</style>
+
+<!-- (c) Layout created by FRIEDCHILDREN★ (https://layouts.spacehey.com/layout?id=101668) --
+
+
+<!-- (c) Layout created by Tobben Van Elric (xXjellyfishXx)  (https://layouts.spacehey.com/layout?id=92988) -->
+
+<marquee> <img src="http://dl2.glitter-graphics.net/pub/2343/2343362kjwlu860m0.gif"/> <marquee></marquee></marquee>
+
+<!-- (c) Layout created by Kiwi (https://layouts.spacehey.com/layout?id=86358) -->
+
+<style>* {cursor: url(http://www.rw-designer.com/cursor-view/188992.png), auto !important;}</style>
+<a href="" target="_blank" style="position:absolute; top: 0px; right: 0px;">
+</a>
+
+<!-- (c) Layout created by Kiwi (https://layouts.spacehey.com/layout?id=86348) -->
+
+<style>
+.online {
+        content: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2hzaWo2MW9sN2o3cGM5dnBlbjByNGUxZWN4MWc1ZHNjbTU3anR6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/vS0mrGLsTELr25kzsW/giphy.gif");}
+</style>
+
+<!-- (c) Layout created by ♡Pais1ey♡ (https://layouts.spacehey.com/layout?id=31912) -->
+
+<style>
+/* customizable snowflake styling */
+.snowflake {
+  color: white;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  
+}
+@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;user-select:none;cursor:default;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;animation-delay:4s,2.5s}
+</style>}
+ <div class="snowflakes"><div class="snowflake">(*≧ω≦*)</div><div class="snowflake">𓈒ㅤׂㅤ𓇼 ࣪ 𓈒ㅤׂㅤ⭒
+𓆡 ⭒ㅤ𓈒</div><div class="snowflake">🐚</div><div class="snowflake">⋆｡𖦹🐋⋆｡</div><div class="snowflake">🦴</div><div class="snowflake">	(☆▽☆)</div><div class="snowflake">o(&gt;ω&lt;)o</div><div class="snowflake"></div><div class="snowflake">🪸🐬</div><div class="snowflake">／(＞×＜)＼</div><div class="snowflake">∪･ω･∪</div><div class="snowflake">૮ ˶ᵔ ᵕ ᵔ˶ ა🪼⋆.࿔:･</div></div>
+
+
+<!-- (c) Layout created by 💗𝒞! (https://spacehey.com/home) -->
+
+
+<iframe width="0" height="0" src="https://www.youtube.com/embed/rDolt3jJRsM?si=boyGUi7qvbn2VQFG&;amp;;autoplay=1&;loop=1&;controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" loading="lazy">
+</iframe>
+
+<!-- (c) Layout created by 𝙁𝙍𝘼𝙉! (https://layouts.spacehey.com/layout?id=93870) -->
+
+
+<div style="float:  ; max-height: 200px; position: fixed; right: 1px; bottom: 0px; z-index: 350;">
+<img src="https://i.pinimg.com/originals/b5/43/24/b54324590ea3c1dc5b5ac2b396ed6d64.gif" height="200"/></div>
+
+
+<!-- (c) Layout created by Samuel. :)  (https://layouts.spacehey.com/layout?id=98164) -->
+
+<style>
+.general-about img {-webkit-mask-image: url(https://i.postimg.cc/MK4VPkGn/2024-01-28-0jv-Kleki.png);-webkit-mask-size: 100%;-webkit-mask-repeat: no-repeat;-webkit-mask-position: center;}
+</style>
+
+<style>
+.profile .friends .person img:not(.icon) { -webkit-mask-image: url(https://i.postimg.cc/MK4VPkGn/2024-01-28-0jv-Kleki.png);-webkit-mask-size: 100%;-webkit-mask-repeat: no-repeat;-webkit-mask-position: center;}
+</style>
+<style>
+
+.comments-table td:first-child img:not(.icon) { -webkit-mask-image: url(https://i.postimg.cc/MK4VPkGn/2024-01-28-0jv-Kleki.png);-webkit-mask-size: 100%;-webkit-mask-repeat: no-repeat;-webkit-mask-position: center;}
+
+</style>
+
+<!-- (c) Layout created by ⭐Donatello_simp⭐ (https://layouts.spacehey.com/layout?id=100367) -->
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3Rxb2N5NGQ0OXNsMnA3NXpobGdrYnJnaWNibW5vZHo0OG56cjl4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Lf4YaiDIfQTn2/giphy.gif"/>
+
+<!-- (c) Layout created by 💗𝒞 (https://spacehey.com/silentcat) -->
+
+<img src="https://64.media.tumblr.com/ef447ba46c06ba34e5fa57acf86dc132/9154de88916257fb-47/s100x200/281f215d2652dddf6846f9a02287f98ba4e8071c.gifv"/>
+
+<img src="https://64.media.tumblr.com/a2ab0d1083cd65f50bca9c3d15b16cef/9154de88916257fb-95/s100x200/66ffa7e67b4c8a04b13b624f70a83c9f1aaf9c9b.gifv"/>
+
+<img src="https://64.media.tumblr.com/8ece2128d4441a8c15496ec8ee047fb7/9154de88916257fb-d4/s100x200/2bc71901fdba107e885fc275967b16ca67db3288.gifv"/>
+
+<img src="https://64.media.tumblr.com/114b1b39442ca2aa249454c9f0daea4a/9154de88916257fb-81/s100x200/bdeb67a3d2fbcbcdd50f1dc4192d50e2642eb950.gifv"/>
+
+
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/380UbSJnNQ9SioALGRB0Cf?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
