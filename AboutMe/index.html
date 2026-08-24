@@ -3,131 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Miiweb</title>
+  <title>MeWeb</title>
   <link rel="stylesheet" href="/AboutMe/style.css">
+  <link rel="icon" type="image/x-icon" href="/AboutMe/2A3CKAK.ico">
+
 </head>
 <body>
-  <!-- Reading Progress Bar -->
-  <div id="progress-bar"></div>
-
-  <!-- Sticky Navbar -->
-  <nav class="navbar">
-    <div class="logo">&lt;Mira /&gt;</div>
-    <ul class="nav-links">
-      <li><a href="#about">Mii</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#experience">Facts & TMIs</a></li>
-      <li><a href="#contact">Feedback</a></li>
-    </ul>
-    <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-  </nav>
-
-  <!-- Hero Section -->
-  <section id="about" class="hero">
-    <div class="hero-container">
-      <div class="profile-img-container">
-        <img src="https://via.placeholder.com/180" alt="Profile Picture" class="profile-img">
-      </div>
-      <div class="hero-text">
-        <h1>Hi, I'm <span class="highlight">Mira</span></h1>
-        <p class="subtitle">I am a <span class="typing-text"></span></p>
-        <p class="description">
-        </p>
-        <div class="hero-actions">
-          <a href="#experience" class="btn primary-btn">Facts?</a>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#welc">Welcome</a></li>
+        <li><a href="#intro">Brief Intro</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#facts">Facts</a></li>
+        <li><a href="#cont">Contact</a></li>
+      </ul>
+      </nav>
+    <section id="welc">
+  <h2>Welcome to My site</h2>
+  <figure class="character-wrapper">
+    <img src="/AboutMe/Images/Normal stand.png" alt="Guide Character" class="character-img">
+  </figure>
+  <div class="speech-bubble">
+          <p>This is a brief introduction about me.</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Filterable Projects Section with Modal Trigger -->
-  <section id="projects" class="section reveal">
-    <h2>Featured Projects</h2>
-    <div class="filter-buttons">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="web">Web Apps</button>
-      <button class="filter-btn" data-filter="design">UI/UX</button>
-    </div>
-    <div class="projects-grid">
-      <div class="project-card" data-category="web" data-title="Analytics Dashboard" data-desc="A full analytics suite featuring live chart visualizations, data exporting, and team permission management." data-tech="React, Chart.js, Node.js">
-        <h3>Analytics Dashboard</h3>
-        <p>Interactive metrics platform with real-time data visualizer.</p>
-        <span class="tag">Web App</span>
-      </div>
-      <div class="project-card" data-category="design" data-title="Finance App UI" data-desc="Complete UI design system for a personal budgeting application, optimized for mobile responsiveness." data-tech="Figma, CSS3, SVG Animations">
-        <h3>Finance App UI</h3>
-        <p>Minimalist dark-mode dashboard tailored for modern banking.</p>
-        <span class="tag">UI/UX</span>
-      </div>
-      <div class="project-card" data-category="web" data-title="Task Automation Manager" data-desc="Workflow manager allowing users to create custom automation triggers and schedule automated jobs." data-tech="JavaScript, Express, REST API">
-        <h3>Task Automation Tool</h3>
-        <p>Streamlined task scheduler for small engineering teams.</p>
-        <span class="tag">Web App</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Facts & TMIs Section -->
-  <section id="experience" class="section reveal">
-    <h2>Facts & TMIs</h2>
-    <div class="timeline">
-      <div class="timeline-item left">
-        <div class="timeline-content">
-          <span class="date">Fun Fact #1</span>
-          <h3>Coder and Baketball PLayer</h3>
-          <p>I started coding and learning actually when  i was 11 years on scratch at first and i play basketball only because i once made a basketball game on scratch !!</p>
-      </div>
-      <div class="timeline-item right">
-        <div class="timeline-content">
-          <span class="date">TMI Alert</span>
-          <h3>Tab Hoarder</h3>
-          <p>I currently have at least 47 browser tabs open across three windows, and I promise I need every single one of them. XD</p>
+    </section>
+    <section id="intro">
+      <h2>Brief Intro</h2>
+        <figure class="character-wrapper">
+    <img src="/AboutMe/Images/Presenting.png" alt="Guide Character" class="character-img">
+  </figure>
+  <div class="speech-bubble">
+          <p>Hello! I'm a passionate developer with a love for coding and technology. I enjoy creating innovative solutions and learning new skills.</p>
         </div>
-      </div>
-      <div class="timeline-item left">
-        <div class="timeline-content">
-          <span class="date">Fun Fact #2</span>
-          <h3>Night Owl Genius</h3>
-          <p>My peak creative hours hit right around midnight when the rest of the world is quiet.</p>
-        </div>
-      </div>
+      <p>Here you can find some information about my background and interests.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+        <figure class="character-wrapper">
+    <img src="/AboutMe/Images/Happy.png" alt="Guide Character" class="character-img">
+  </figure>
+  <div class="speech-bubble">
+          <p>Here are some of the skills I have acquired over the years:</p>
+              <ul>
+                  <li>Programming Languages: JavaScript, Python, C++</li>
+                  <li>Web Development: HTML, CSS, React</li>
+                  <li>Database Management: MySQL, MongoDB</li>
+      </ul>
     </div>
-  </section>
 
-  <!-- Feedback & Message Section -->
-  <section id="contact" class="section reveal">
-    <h2>Leave a Message or Feedback</h2>
-    <p style="text-align: center; margin-bottom: 20px; color: #666;">Got thoughts, suggestions, or just want to say hi? Drop your message below!</p>
-    <form id="contact-form">
-      <div class="form-group">
-        <input type="text" id="name" placeholder="Your Name" required>
-      </div>
-      <div class="form-group">
-        <input type="email" id="email" placeholder="Your Email" required>
-      </div>
-      <div class="form-group">
-        <textarea id="message" rows="5" placeholder="Your Message or Feedback..." required></textarea>
-      </div>
-      <button type="submit" class="btn primary-btn full-width">Send Feedback</button>
-    </form>
-  </section>
-
-  <!-- Quick Project Preview Modal -->
-  <div id="project-modal" class="modal">
-    <div class="modal-content">
-      <span class="close-modal">&times;</span>
-      <h3 id="modal-title">Project Title</h3>
-      <p id="modal-desc">Project Description</p>
-      <div class="modal-tech" id="modal-tech"></div>
+    </section>
+    <section id="facts">
+      <h2>Facts</h2>
+        <figure class="character-wrapper">
+    <img src="/AboutMe/Images/Thinking.png" alt="Guide Character" class="character-img">
+  </figure>
+  <div class="speech-bubble">
+          <p>Here are some interesting facts about me:</p>
+      <ul>
+        <li>I am a passionate programmer with experience in multiple technologies.</li>
+        <li>I enjoy solving complex problems and creating innovative solutions.</li>
+      </ul>
     </div>
-  </div>
+    </section>
+    <section id="cont">
+      <h2>Contact</h2>
+        <figure class="character-wrapper">
+    <img src="/AboutMe/Images/Normal stand.png" alt="Guide Character" class="character-img">
+  </figure>
+  <div class="speech-bubble">
+          <p>If you would like to get in touch with me, please feel free to reach out via email or connect with me on social media.</p>
+          <p>You can reach me at: example@email.com</p>
+      </div>
+    </section>
+  <!-- Add id="top" to the top container -->
+<div class="container" id="top">
+  <!-- Navbar and sections remain the same... -->
+</div>
+<!-- Layout created by sybilz layouts (https://layouts.spacehey.com/layout?id=24152) -->
 
-  <!-- Toast Notification Container -->
-  <div id="toast-container"></div>
+<!-- Fixed Overlay Elements -->
+<div class="scarletangel"></div>
+<div class="mayura2"></div>
+<div class="heartfolder1"></div>
+<div class="heartfolder2"></div>
+<div class="heartfolder3"></div>
+<div class="heartfolder4"></div>
+<div class="heartfolder5"></div>
+<div class="heartfolder6"></div>
 
-  <!-- Back to Top Button -->
-  <button id="back-to-top" title="Go to top">↑</button>
+<!-- Profile Graphics -->
+<img src="https://64.media.tumblr.com/5019b04d38d5c58b8d826eb8b9f22f39/34275822159c4776-88/s400x600/0f21dc869dad6bd910791ee4a685be5756e5af62.pnj" width="448px" alt="decorative graphic" />
 
+<img src="https://64.media.tumblr.com/21c6ec64ae5698813eec48776041a0d6/0a4801df6aa0db54-79/s400x600/55580dda2885b1bf53aa7bb10a279ee6f7dee8fe.gifv" width="448" alt="animated graphic" />
   <script src="/AboutMe/script.js"></script>
 </body>
 </html>
