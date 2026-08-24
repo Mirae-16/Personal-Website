@@ -561,35 +561,6 @@ body {
     100% { transform: translate(0, 0px); }
   }
 
-  /* Floating Overlay Elements */
-  div.scarletangel {
-    background: url("https://64.media.tumblr.com/ce6d953f955627b6683991ad455f49b0/26d81e5c31b80d32-36/s400x600/ae349716fd562d1e946265ed716f2f9ccc71398b.gifv");
-    background-size: 100% !important;
-    position: fixed;
-    left: 630px;
-    bottom: 30px;
-    height: 300px;
-    width: 370px;
-    z-index: 100;
-    opacity: 100%;
-    background-blend-mode: overlay;
-    background-color: #ffc0cb38;
-  }
-
-  div.mayura2 {
-    background: url("https://64.media.tumblr.com/7e9eddf21a9a0699087ca295d3d67621/4467b007948c8ded-6c/s540x810/25bd4d3faca51ca948aa88b2ad68027f78de0eb4.gifv");
-    background-size: 100% !important;
-    position: fixed;
-    right: 900px;
-    top: 30px;
-    height: 175px;
-    width: 370px;
-    z-index: 100;
-    opacity: 100%;
-    background-blend-mode: overlay;
-    background-color: #ff8ac7ad;
-  }
-
   div.heartfolder1,
   div.heartfolder2,
   div.heartfolder3,
